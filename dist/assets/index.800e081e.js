@@ -1,1 +1,0 @@
-import{b as a,j as r,L as e}from"./index.97f4ede1.js";import{C as i}from"./Cards.1dc4b2ed.js";import{C as m}from"./CarouselGallery.60ba97ff.js";import"./CartButton.4e856f31.js";import"./CardMedia.ceb44255.js";const n=()=>{const{data:o,isLoading:s}=a({params:{limit:8}});return s?r(e,{height:"30vh"}):r(m,{children:o.products.map(t=>r(i,{item:t},t.id))})};export{n as default};

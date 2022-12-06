@@ -1,0 +1,1 @@
+import{u as a,j as r,L as i}from"./index.bbd83498.js";import{C as o}from"./Cards.058ecc46.js";import{C as l}from"./CarouselGallery.22a842f7.js";import"./CartButton.6e485256.js";const n=()=>{const{data:s,isLoading:t}=a({params:{limit:8}});return t?r(i,{height:"30vh"}):r(l,{children:s.map(e=>r(o,{item:e},e._id))})};export{n as default};
