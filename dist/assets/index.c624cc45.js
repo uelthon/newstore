@@ -1,1 +1,0 @@
-import{A as e,j as r,L as d}from"./index.bbd83498.js";import{C as i}from"./Cards.058ecc46.js";import{C as m}from"./CarouselGallery.22a842f7.js";import"./CartButton.6e485256.js";const c=({brand:a})=>{const{data:t,isLoading:o}=e({params:{brands:[a]}});return o?r(d,{height:"30vh"}):r(m,{children:t.products.map(s=>r(i,{item:s},s.id))})};export{c as default};

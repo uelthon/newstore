@@ -1,4 +1,5 @@
 import express from 'express'
+import compression from 'compression'
 import cors from 'cors'
 import 'express-async-errors'
 import usersRouter from './controllers/users.js'
@@ -15,6 +16,7 @@ const __dirname = path.resolve()
 
 const app = express()
 
+app.use(compression())
 app.use(express.json())
 app.use(cors())
 app.use(express.static('dist'))
